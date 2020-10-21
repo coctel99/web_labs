@@ -1,0 +1,31 @@
+body {
+    background-color: #f7f6cd;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    background: linear-gradient(to bottom, #f3f74c 5%, #d3d643 100%);
+    border-radius: 4px;
+    border: 1px solid #babd40;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    margin: 3px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #babd40;
+}
+
+a:hover {
+    background: linear-gradient(to bottom, #7cf750 5%, #46c032 100%);
+}
+
+
+li {
+    list-style-type: none;
+}
+
